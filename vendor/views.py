@@ -128,4 +128,4 @@ def acknowledge_purchase_order(request, po_id):
     po.acknowledgment_date = timezone.now()
     po.save()
 
-    return Response({"message": "Acknowledgment successful"}))
+    return Response({"message": "Acknowledgment successful"})
